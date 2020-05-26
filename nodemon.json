@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGODB_PASS": "liem1234",
+    "JWT_KEY": "jwtkey"
+  }
+}
