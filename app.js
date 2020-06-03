@@ -20,7 +20,8 @@ app.use(express.json());
 app.use(cors());
 
 // mongoDB connection
-const uri = `mongodb+srv://liem:${process.env.MONGODB_PASS}@cluster0-a6es6.mongodb.net/test?retryWrites=true&w=majority`;
+
+const uri = `mongodb+srv://xart:${process.env.MONGODB_PASS}@cluster0-alflb.mongodb.net/test?retryWrites=true&w=majority`;
 mongoose.connect(uri, {
   useCreateIndex: true,
   useNewUrlParser: true,
